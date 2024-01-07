@@ -10,6 +10,9 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+.angular
+src/assets/fonts
+# //not sure about fonts
 
 # IDEs and editors
 .idea/

@@ -1,0 +1,45 @@
+.faq-container {
+  background-color: var(--white);
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  max-width: 32rem;
+}
+
+.faq-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: var(--bold-font);
+}
+
+.faq-heading > p{
+  font-size: 2rem;
+}
+
+.questions:not(:last-child) {
+  border-bottom: 1px solid var(--grayish-purple-border);
+}
+
+.question-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.card {
+  display: grid;
+}
+
+.title {
+  font-weight: var(--semibold-font);
+}
+
+.description {
+  font-weight: var(--normal-font);
+  color: var(--grayish-purple);
+  margin-bottom: 1rem;
+}
+
